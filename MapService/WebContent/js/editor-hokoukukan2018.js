@@ -342,6 +342,7 @@ $hulop.editor.importV1 = function(features) {
 			case '通り名称または交差点名称:es':
 			case '通り名称または交差点名称:fr':
 			case '通り名称または交差点名称:ko':
+			case '通り名称または交差点名称:ar':		
 			case '通り名称または交差点名称:zh-CN':
 				set(tp, i18Name(name, 'st_name'), value);
 				break;
@@ -498,6 +499,7 @@ $hulop.editor.importV1 = function(features) {
 			case '所在地:es':
 			case '所在地:fr':
 			case '所在地:ko':
+			case '所在地:ar':		
 			case '所在地:zh-CN':
 				set(tp, i18Name(name, 'address'), value);
 				break;
@@ -518,6 +520,7 @@ $hulop.editor.importV1 = function(features) {
 			case '名称:es':
 			case '名称:fr':
 			case '名称:ko':
+			case '名称:ar':		
 			case '名称:zh-CN':
 				set(tp, i18Name(name, 'name'), value);
 				break;
@@ -551,6 +554,7 @@ $hulop.editor.importV1 = function(features) {
 			case '地区名:es':
 			case '地区名:fr':
 			case '地区名:ko':
+			case '地区名:ar':		
 			case '地区名:zh-CN':
 				set(tp, i18Name(name, 'med_dept'), value);
 				break;
@@ -587,6 +591,7 @@ $hulop.editor.importV1 = function(features) {
 			case 'content:es':
 			case 'content:fr':
 			case 'content:ko':
+			case 'content:ar':		
 			case 'content:zh-CN':
 				set(tp, i18Name(name, 'hulop_content'), value);
 				break;
@@ -596,6 +601,7 @@ $hulop.editor.importV1 = function(features) {
 			case 'long_description:es':
 			case 'long_description:fr':
 			case 'long_description:ko':
+			case 'long_description:ar':		
 			case 'long_description:zh-CN':
 				set(tp, i18Name(name, 'hulop_long_description'), value);
 				break;
@@ -608,6 +614,7 @@ $hulop.editor.importV1 = function(features) {
 			case 'short_description:es':
 			case 'short_description:fr':
 			case 'short_description:ko':
+			case 'short_description:ar':		
 			case 'short_description:zh-CN':
 				set(tp, i18Name(name, 'hulop_short_description'), value);
 				break;
@@ -681,6 +688,7 @@ $hulop.editor.importV1 = function(features) {
 			case '出入口の名称:es':
 			case '出入口の名称:fr':
 			case '出入口の名称:ko':
+			case '出入口の名称:ar':		
 			case '出入口の名称:zh-CN':
 				set(fp, i18Name(name, 'ent' + index + '_n'), value);
 				break;
