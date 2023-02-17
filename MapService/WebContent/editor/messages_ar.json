@@ -100,156 +100,156 @@
 				"desc": "معرف نقطة المصدر"
 			},
 			"end_id": {
-				"name": "Target node ID",
-				"desc": "ID of a target node"
+				"name": "معرف نقطة الهدف ",
+				"desc": "معرف نقطة الهدف"
 			},
 			"distance": {
-				"name": "Link length",
-				"desc": "Enter a link length up to the first decimal place (in meters). (No need to enter this item if the route type is an elevator.)"
+				"name": "طول الرابط",
+				"desc": "أدخل طول ارتباط يصل إلى أول منزلة عشرية (بالأمتار). (لا حاجة لإدخال هذا العنصر إذا كان نوع المسار عبارة عن مصعد.)"
 			},
 			"rt_struct": {
-				"name": "Route structure",
-				"desc": "1: physical separation provided between roadways and sidewalks, 2: no physical separation provided between roadways and sidewalks, 3: pedestrian crossing, 4: road crossing without road marking for pedestrian crossing, 5: underpass, 6: pedestrian crossing bridge, 7: passage in facility, 8: other route structure, 99: unknown"
+				"name": "هيكل الطريق",
+				"desc": "1: الفصل المادي بين الطرق والأرصفة ، 2: لا يوجد فصل مادي بين الطرق والأرصفة ، 3: معبر المشاة ، 4: معبر الطريق بدون علامات على الطريق لعبور المشاة ، 5: ممر سفلي ، 6: جسر عبور المشاة ، 7: ممر في المرفق ، 8: هيكل طريق آخر ، 99: غير معروف"
 			},
 			"route_type": {
-				"name": "Route type",
-				"desc": "1: no corresponding attribute information, 2: moving walkway, 3: railroad crossing, 4: elevator, 5: escalator, 6: stairs, 7: slope, 99: unknown"
+				"name": "نوع الطريق",
+				"desc": "1: لا توجد معلومات سمة مقابلة ، 2: ممر متحرك ، 3: معبر سكة حديد ، 4: مصعد ، 5: سلم متحرك ، 6: سلالم ، 7: منحدر ، 99: غير معروف"
 			},
 			"direction": {
-				"name": "Direction",
-				"desc": "1: both directions, 2: direction from source to target, 3: direction from target to source, 99: unknown"
+				"name": "اتجاه",
+				"desc": "1: كلا الاتجاهين ، 2: الاتجاه من المصدر إلى الهدف ، 3: الاتجاه من الهدف إلى المصدر ، 99: غير معروف"
 			},
 			"width": {
-				"name": "Width",
-				"desc": "1: less than 1.0 m, 2: 1.0 m to less than 2.0 m, 3: 2.0 m to less than 3.0 m, 4: 3.0 m or more, 99: unknown"
+				"name": "عرض",
+				"desc": "1: أقل من 1.0 م ، 2: 1.0 م إلى أقل من 2.0 م ، 3: 2.0 م إلى أقل من 3.0 م ، 4: 3.0 م أو أكثر ، 99: غير معروف"
 			},
 			"vtcl_slope": {
-				"name": "Gradient",
-				"desc": "1: 5% or less, 2: more than 5% (target higher than source), 3: more than 5% (target lower than source), 99: unknown"
+				"name": "الانحدار",
+				"desc": "1: 5٪ أو أقل ، 2: أكثر من 5٪ (هدف أعلى من المصدر) ، 3: أكثر من 5٪ (هدف أقل من المصدر) ، 99: غير معروف"
 			},
 			"lev_diff": {
-				"name": "Step",
-				"desc": "1: 2 cm or less, 2: more than 2 cm, 99: unknown"
+				"name": "خطوة",
+				"desc": "1: 2 سم أو أقل ، 2: أكثر من 2 سم ، 99: غير معروف"
 			},
 			"tfc_signal": {
-				"name": "Signals for pedestrians",
-				"desc": "1: without signals for pedestrians, 2: with pedestrian-vehicle separated signals, 3: with pedestrian-control signals, 4: other signals than these, 99: unknown"
+				"name": "إشارات للمشاة",
+				"desc": "1: بدون إشارات للمشاة ، 2: بإشارات منفصلة لمركبة المشاة ، 3: بإشارات تحكم المشاة ، 4: إشارات أخرى غير هذه ، 99: غير معروف"
 			},
 			"tfc_s_type": {
-				"name": "Types of signals for pedestrians",
-				"desc": "1: without sound equipment, 2: with sound equipment (without a button for visually impaired person), 3: with sound equipment (with a button for visually impaired person), 99: unknown"
+				"name": "أنواع إشارات المشاة",
+				"desc": "1: بدون معدات الصوت ، 2: مع معدات الصوت (بدون زر للمعاقين بصريًا) ، 3: مع معدات الصوت (مع زر للمعاقين بصريًا) ، 99: غير معروف"
 			},
 			"brail_tile": {
-				"name": "Tactile walking surface indicators",
-				"desc": "1: without tactile walking surface indicators, etc., 2: with tactile walking surface indicators, etc., 99: unknown"
+				"name": "مؤشرات سطح المشي باللمس",
+				"desc": "1: بدون مؤشرات سطح المشي اللمسية ، وما إلى ذلك ، 2: مع مؤشرات سطح المشي اللمسية ، وما إلى ذلك ، 99: غير معروف"
 			},
 			"elevator": {
-				"name": "Elevator type",
-				"desc": "1: without elevator, 2: with elevator (not accessible), 3: with elevator (accessible to wheelchair users), 4: with elevator (accessible to visually impaired persons), 5: with elevator (accessible to wheelchair users and visually impaired persons), 99: unknown"
+				"name": "نوع المصعد",
+				"desc": "1: بدون مصعد ، 2: بمصعد (لا يمكن الوصول إليه) ، 3: بمصعد (يمكن الوصول إليه لمستخدمي الكراسي المتحركة) ، 4: بمصعد (يمكن الوصول إليه من قبل الأشخاص المعاقين بصريًا) ، 5: بمصعد (يمكن الوصول إليه لمستخدمي الكراسي المتحركة والمعاقين بصريًا) ) ، 99: غير معروف"
 			},
 			"start_time": {
-				"name": "Service start time",
-				"desc": "Enter service start time if the service time is limited. Leave this field blank if the service time is not limited. Enter \"99\" if it is unknown. The format is \"HHMM.\""
+				"name": "وقت بدء الخدمة",
+				"desc": "أدخل وقت بدء الخدمة إذا كان وقت الخدمة محدودًا. اترك هذا الحقل فارغًا إذا لم يكن وقت الخدمة محدودًا. أدخل \ "99 \" إذا كان غير معروف. التنسيق هو \ "HHMM. \""
 			},
 			"end_time": {
-				"name": "Service end time",
-				"desc": "Enter service end time if the service time is limited. Leave this field blank if the service time is not limited. Enter \"99\" if it is unknown. The format is \"HHMM.\""
+				"name": "وقت انتهاء الخدمة",
+				"desc": "أدخل وقت انتهاء الخدمة إذا كان وقت الخدمة محدودًا. اترك هذا الحقل فارغًا إذا لم يكن وقت الخدمة محدودًا. أدخل \ "99 \" إذا كان غير معروف. التنسيق هو \ "HHMM. \""
 			},
 			"start_date": {
-				"name": "Service start date",
-				"desc": "Enter a service start date if network data is to be developed before the services start of a road or passage. Leave this field blank if the road is already in service. Enter \"99\" if it is unknown. The format is \"YYYY-MM-DD.\""
+				"name": "تاريخ بدء الخدمة",
+				"desc": "أدخل تاريخ بدء الخدمة إذا كان سيتم تطوير بيانات الشبكة قبل بدء الخدمات لطريق أو ممر. اترك هذا الحقل فارغًا إذا كانت الطريق في الخدمة بالفعل. أدخل \ "99 \" إذا كان غير معروف. التنسيق هو \ "YYYY-MM-DD. \""
 			},
 			"end_date": {
-				"name": "Service end date",
-				"desc": "Enter a service end date if the service end of a road or passage is planned. Leave this field blank if the service end is not planned. Enter \"99\" if it is unknown. The format is \"YYYY-MM-DD.\""
+				"name": "تاريخ انتهاء الخدمة",
+				"desc": "أدخل تاريخ انتهاء الخدمة إذا تم التخطيط لنهاية الخدمة لطريق أو ممر. اترك هذا الحقل فارغًا إذا لم يتم التخطيط لنهاية الخدمة. أدخل \ "99 \" إذا كان غير معروف. التنسيق هو \ "YYYY-MM-DD. \""
 			},
 			"no_serv_d": {
-				"name": "Service closing days",
-				"desc": "Enter non-service days if the service days of the week are limited. Omitted if the service days of the week are not limited. Convert the days of the week into numbers (1: Monday to 7: Sunday) and enter numbers consecutively in an ascending order if there are more than one. Leave this field blank if there is no service closing day. Enter \"99\" if it is unknown."
+				"name": "أيام إغلاق الخدمة",
+				"desc": "أدخل أيام غير الخدمة إذا كانت أيام الخدمة محدودة. محذوف إذا كانت أيام الخدمة في الأسبوع غير محدودة. قم بتحويل أيام الأسبوع إلى أرقام (1: من الاثنين إلى 7: الأحد) وأدخل الأرقام على التوالي بترتيب تصاعدي إذا كان هناك أكثر من واحد. اترك هذا الحقل فارغًا إذا لم يكن هناك يوم إغلاق للخدمة. أدخل \ "99 \" إذا كان غير معروف."
 			},
 			"tfc_restr": {
-				"name": "Restricted traffic",
-				"desc": "1: freely accessible, 2: access undesirable (private space), 3: fare payment required, 99: unknown"
+				"name": "حركة المرور المقيدة",
+				"desc": "1: يمكن الوصول إليه مجانًا ، 2: الوصول غير مرغوب فيه (مساحة خاصة) ، 3: دفع أجرة مطلوب ، 99: غير معروف"
 			},
 			"w_min": {
-				"name": "Minimum width",
-				"desc": "Enter the minimum width in a link up to the first decimal place (in meters)."
+				"name": "أدنى عرض",
+				"desc": "أدخل الحد الأدنى للعرض في ارتباط يصل إلى أول منزلة عشرية (بالأمتار)."
 			},
 			"w_min_lat": {
-				"name": "Latitude at minimum width",
-				"desc": "Latitude of a point at the minimum width. Enter a value in decimal notation (e.g., 35.6755310)."
+				"name": "خط العرض عند الحد الأدنى للعرض",
+				"desc": "خط عرض نقطة عند الحد الأدنى للعرض. أدخل قيمة بالتدوين العشري (على سبيل المثال ، 35.6755310)."
 			},
 			"w_min_lon": {
-				"name": "Longitude at minimum width",
-				"desc": "Longitude of a point at the minimum width. Enter a value in decimal notation (e.g., 139.7512700)."
+				"name": "خط الطول عند الحد الأدنى للعرض",
+				"desc": "خط طول نقطة عند الحد الأدنى للعرض. أدخل قيمة بالتدوين العشري (على سبيل المثال ، 139.7512700)."
 			},
 			"vSlope_max": {
-				"name": "Maximum gradient",
-				"desc": "Enter the maximum gradient in a link as an integer (in percent)."
+				"name": "التدرج الأقصى",
+				"desc": "أدخل الحد الأقصى للتدرج في ارتباط كعدد صحيح (بالنسبة المئوية)."
 			},
 			"vSlope_lat": {
-				"name": "Gradient latitude",
-				"desc": "Latitude of a point at the maximum gradient in a link. Enter a value in decimal notation (e.g., 35.6755310)."
+				"name": "خط عرض متدرج",
+				"desc": "خط عرض نقطة عند الحد الأقصى للتدرج في الارتباط. أدخل قيمة بالتدوين العشري (على سبيل المثال ، 35.6755310)."
 			},
 			"vSlope_lon": {
-				"name": "Gradient longitude",
-				"desc": "Longitude of a point at the maximum gradient in a link. Enter a value in decimal notation (e.g., 139.7512700)."
+				"name": "خط طول متدرج",
+				"desc": "خط طول نقطة عند الحد الأقصى للتدرج في الارتباط. أدخل قيمة بالتدوين العشري (على سبيل المثال ، 139.7512700)."
 			},
 			"hSlope_max": {
-				"name": "Maximum crossfall",
-				"desc": "Enter the maximum gradient in a link as an integer (in percent)."
+				"name": "أقصى تقاطع",
+				"desc": "أدخل الحد الأقصى للتدرج في ارتباط كعدد صحيح (بالنسبة المئوية)."
 			},
 			"hSlope_lat": {
-				"name": "Crossfall latitude",
-				"desc": "Latitude of a point at the maximum crossfall in a link. Enter a value in decimal notation (e.g., 35.6755310)."
+				"name": "خط العرض المتقاطع",
+				"desc": "خط عرض نقطة عند أقصى تقاطع في الارتباط. أدخل قيمة بالتدوين العشري (على سبيل المثال ، 35.6755310)."
 			},
 			"hSlope_lon": {
-				"name": "Crossfall longitude",
-				"desc": "Longitude of a point at the maximum crossfall in a link. Enter a value in decimal notation (e.g., 139.7512700)."
+				"name": "خط الطول المتقاطع",
+				"desc": "خط طول نقطة عند الحد الأقصى للتقاطع في الارتباط. أدخل قيمة بالتدوين العشري (على سبيل المثال ، 139.7512700)."
 			},
 			"condition": {
-				"name": "Road surface condition",
-				"desc": "1: no problem in wheelchair accessibility, 2: problem in wheelchair accessibility, 99: unknown"
+				"name": "حالة سطح الطريق",
+				"desc": "1: لا توجد مشكلة في إمكانية الوصول إلى الكراسي المتحركة ، 2: مشكلة في إمكانية الوصول إلى الكراسي المتحركة ، 99: غير معروف"
 			},
 			"levDif_max": {
-				"name": "Maximum step height",
-				"desc": "Enter the maximum step height in a link as an integer (in centimeters)."
+				"name": "أقصى ارتفاع للخطوة",
+				"desc": "أدخل الحد الأقصى لارتفاع الخطوة في ارتباط كعدد صحيح (بالسنتيمتر)."
 			},
 			"levDif_lat": {
-				"name": "Step latitude",
-				"desc": "Latitude of a point at the maximum step height in a link. Enter a value in decimal notation (e.g., 35.6755310)."
+				"name": "خط العرض خطوة",
+				"desc": "خط عرض نقطة عند أقصى ارتفاع للخطوة في الارتباط. أدخل قيمة بالتدوين العشري (على سبيل المثال ، 35.6755310)."
 			},
 			"levDif_lon": {
-				"name": "Step longitude",
-				"desc": "Longitude of a point at the maximum step height in a link. Enter a value in decimal notation (e.g., 139.7512700)."
+				"name": "خطوة خط الطول",
+				"desc": "خط طول نقطة عند أقصى ارتفاع للخطوة في ارتباط. أدخل قيمة بالتدوين العشري (على سبيل المثال ، 139.7512700)."
 			},
 			"stair": {
-				"name": "Number of steps of stairs",
-				"desc": "Enter a number of steps as an integer."
+				"name": "عدد درجات السلم",
+				"desc": "أدخل عددًا من الخطوات في صورة عدد صحيح."
 			},
 			"handrail": {
-				"name": "Handrail",
-				"desc": "1: none, 2: on the right, 3: on the left, 4: on both sides, 99: unknown (The direction is as seen from the source.)"
+				"name": "درابزين",
+				"desc": "1: لا شيء ، 2: على اليمين ، 3: على اليسار ، 4: على كلا الجانبين ، 99: غير معروف (الاتجاه كما هو واضح من المصدر.)"
 			},
 			"roof": {
-				"name": "Roof",
-				"desc": "1: none, 2: yes, 99: unknown"
+				"name": "سَطح",
+				"desc": "1: لا ، 2: نعم ، 99: غير معروف"
 			},
 			"waterway": {
-				"name": "Uncovered street gutter or ditch",
-				"desc": "1: none, 2: yes, 99: unknown"
+				"name": "مزراب أو خندق مكشوف في الشارع",
+				"desc": "1: لا ، 2: نعم ، 99: غير معروف"
 			},
 			"bus_stop": {
-				"name": "Bus stop",
-				"desc": "1: none, 2: yes, 99: unknown"
+				"name": "موقف باص",
+				"desc": "1: لا ، 2: نعم ، 99: غير معروف"
 			},
 			"bus_s_lat": {
-				"name": "Latitude of a bus stop",
-				"desc": "Latitude of a bus stop in a link if any. Enter a value in decimal notation (e.g., 35.6755310)."
+				"name": "خط عرض موقف الحافلات",
+				"desc": "خط عرض موقف الحافلات في ارتباط إن وجد. أدخل قيمة بالتدوين العشري (على سبيل المثال ، 35.6755310)."
 			},
 			"bus_s_lon": {
-				"name": "Longitude of a bus stop",
-				"desc": "Longitude of a bus stop in a link if any. Enter a value in decimal notation (e.g., 139.7512700)."
+				"name": "خط طول محطة الحافلات",
+				"desc": "خط طول محطة الحافلات في ارتباط إن وجد. أدخل قيمة بالتدوين العشري (على سبيل المثال ، 139.7512700)."
 			},
 			"facility": {
 				"name": "Support equipment",
