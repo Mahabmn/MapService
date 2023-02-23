@@ -252,154 +252,154 @@
 				"desc": "خط طول محطة الحافلات في ارتباط إن وجد. أدخل قيمة بالتدوين العشري (على سبيل المثال ، 139.7512700)."
 			},
 			"facility": {
-				"name": "Support equipment",
-				"desc": "1: none, 2: accessible escalator for wheelchair, 3: stair lift, 4: step lift, 5: audio guidance device, 6: other support equipment, 99: unknown (Equipment requiring human intervention is excluded.)"
+				"name": "معدات الدعم",
+				"desc": "1: لا شيء ، 2: سلم متحرك يمكن الوصول إليه لكرسي متحرك ، 3: مصعد سلم ، 4: مصعد سلمي ، 5: جهاز توجيه صوتي ، 6: معدات دعم أخرى ، 99: غير معروف (يتم استبعاد المعدات التي تتطلب تدخلًا بشريًا.)"
 			},
 			"facil_lat": {
-				"name": "Latitude of support equipment",
-				"desc": "Latitude of support equipment in a link if any. Enter a value in decimal notation (e.g., 35.6755310)."
+				"name": "خط عرض معدات الدعم",
+				"desc": "خط عرض معدات الدعم في ارتباط إن وجد. أدخل قيمة بالتدوين العشري (على سبيل المثال ، 35.6755310)."
 			},
 			"facil_lon": {
-				"name": "Longitude of support equipment",
-				"desc": "Longitude of support equipment in a link if any. Enter a value in decimal notation (e.g., 139.7512700)."
+				"name": "خط الطول من معدات الدعم",
+				"desc": "خط الطول لمعدات الدعم في ارتباط إن وجد. أدخل قيمة بالتدوين العشري (على سبيل المثال ، 139.7512700)."
 			},
 			"elev_lat": {
-				"name": "Latitude of an elevator",
-				"desc": "Latitude of an elevator in a link if any. Enter a value in decimal notation (e.g., 35.6755310)."
+				"name": "خط عرض المصعد",
+				"desc": "خط عرض المصعد في الارتباط إن وجد. أدخل قيمة بالتدوين العشري (على سبيل المثال ، 35.6755310)."
 			},
 			"elev_lon": {
-				"name": "Longitude of an elevator",
-				"desc": "Longitude of an elevator in a link if any. Enter a value in decimal notation (e.g., 139.7512700)."
+				"name": "خط طول المصعد",
+				"desc": "خط طول المصعد في الارتباط إن وجد. أدخل قيمة بالتدوين العشري (على سبيل المثال ، 139.7512700)."
 			},
 			"door_type": {
-				"name": "Door type",
-				"desc": "1: none, 2: automatic door, 3: press-button automatic door, 4: manual sliding door, 5: manual door, 6: revolving door, 7: other door, 99: unknown"
+				"name": "نوع الباب",
+				"desc": "1: لا ، 2: باب أوتوماتيكي ، 3: باب أوتوماتيكي بضغطة زر ، 4: باب منزلق يدويًا ، 5: باب يدوي ، 6: باب دوار ، 7: باب آخر ، 99: غير معروف"
 			},
 			"tfc_s_lat": {
-				"name": "Latitude of a traffic signal",
-				"desc": "Latitude of a traffic signal near a link if any. Enter a value in decimal notation (e.g., 35.6755310)."
+				"name": "خط عرض إشارة المرور",
+				"desc": "خط عرض إشارة المرور بالقرب من ارتباط إن وجد. أدخل قيمة بالتدوين العشري (على سبيل المثال ، 35.6755310)."
 			},
 			"tfc_s_lon": {
-				"name": "Longitude of a traffic signal",
-				"desc": "Longitude of a traffic signal near a link if any. Enter a value in decimal notation (e.g., 139.7512700)."
+				"name": "خط طول إشارة المرور",
+				"desc": "خط طول إشارة المرور بالقرب من ارتباط إن وجد. أدخل قيمة بالتدوين العشري (على سبيل المثال ، 139.7512700)."
 			},
 			"day_trfc": {
-				"name": "Daily traffic",
-				"desc": "Enter a daily traffic as an integer (Enter a value only for a census target section. Do not enter a value for a non-target section.)"
+				"name": "حركة المرور اليومية",
+				"desc": "أدخل حركة المرور اليومية كعدد صحيح (أدخل قيمة فقط لقسم هدف التعداد. لا تدخل قيمة لقسم غير هدف.)"
 			},
 			"main_user": {
-				"name": "Main users",
-				"desc": "1: pedestrian, 2: vehicle, 99: unknown"
+				"name": "المستخدمون الرئيسيون",
+				"desc": "1: مشاة ، 2: مركبة ، 99: غير معروف"
 			},
 			"st_name": {
-				"name": "Name of a street or an intersection",
-				"desc": "Enter an alias if any (Enter an intersection name if the link is on an intersection). Leave this field blank if there is no alias, etc. Enter \"99\" if it is unknown."
+				"name": "اسم شارع أو تقاطع",
+				"desc": "أدخل اسمًا مستعارًا إن وجد (أدخل اسم تقاطع إذا كان الارتباط على تقاطع). اترك هذا الحقل فارغًا إذا لم يكن هناك اسم مستعار ، وما إلى ذلك. أدخل \ "99 \" إذا كان غير معروف."
 			}
 		},
 		"facility": {
 			"facil_id": {
-				"name": "Facility ID",
-				"desc": "Facility ID"
+				"name": "معرف المنشأة",
+				"desc": "معرف المنشأة"
 			},
 			"facil_type": {
-				"name": "Facility type",
-				"desc": "1: public offices, etc., 2: educational and cultural facilities, etc., 3: medical facilities, 4: health and welfare facilities, 5: commercial facilities, 6: accommodations, 7: parks and athletic facilities, 8: tourist facilities, 9: transport facilities, 10: public toilets (standalone), 99: other facilities"
+				"name": "نوع المنشأة",
+				"desc": "1: مكاتب عامة ، إلخ ، 2: منشآت تعليمية وثقافية ، إلخ ، 3: مرافق طبية ، 4: مرافق صحية ورعاية ، 5: منشآت تجارية ، 6: أماكن إقامة ، 7: حدائق ومرافق رياضية ، 8: مرافق سياحية 9: مرافق النقل ، 10: مراحيض عامة (قائمة بذاتها) ، 99: مرافق أخرى"
 			},
 			"evacuation": {
-				"name": "Evacuation center and area",
-				"desc": "1: none designated, 2: designated emergency evacuation center, 3: designated evacuation center, 4: welfare evacuation site, 5: both 2 and 3, 6: both 2 and 4, 7: both 3 and 4, 8: all of 2, 3, and 4, 99: unknown"
+				"name": "مركز ومساحة الإخلاء",
+				"desc": "1: لم يتم تحديده ، 2: مركز إخلاء طارئ مخصص ، 3: مركز إخلاء مخصص ، 4: موقع إخلاء رفاه ، 5: كلاهما 2 و 3 ، 6: كلاهما 2 و 4 ، 7: كلاهما 3 و 4 ، 8: الكل 2 و 3 و 4 و 99: غير معروف"
 			},
 			"temporary": {
-				"name": "Temporary stay facility",
-				"desc": "1: none designated, 2: designated, 99: unknown"
+				"name": "مرفق الإقامة المؤقتة",
+				"desc": "1: لا شيء محدد ، 2: محدد ، 99: غير معروف"
 			},
 			"name": {
-				"name": "Name",
-				"desc": "Facility name. Leave this field blank if there is no name. Enter \"99\" if it is unknown."
+				"name": "اسم",
+				"desc": "إسم المنشأة. اترك هذا الحقل فارغًا إذا لم يكن هناك اسم. أدخل \ "99 \" إذا كان غير معروف."
 			},
 			"name_ja": {
-				"name": "Name (Japanese)",
-				"desc": "Facility name. Leave this field blank if there is no name. Enter \"99\" if it is unknown."
+				"name": "الاسم (ياباني)",
+				"desc": "إسم المنشأة. اترك هذا الحقل فارغًا إذا لم يكن هناك اسم. أدخل \ "99 \" إذا كان غير معروف."
 			},
 			"name_en": {
-				"name": "Name (English)",
-				"desc": "Facility name in English. Leave this field blank if there is no name. Enter \"99\" if it is unknown."
+				"name": "الاسم (انجليزي)",
+				"desc": "اسم المنشأة باللغة الإنجليزية. اترك هذا الحقل فارغًا إذا لم يكن هناك اسم. أدخل \ "99 \" إذا كان غير معروف."
 			},
 			"address": {
-				"name": "Address",
-				"desc": "Facility location. Enter \"99\" if it is unknown."
+				"name": "عنوان",
+				"desc": "موقع منشأة. أدخل \ "99 \" إذا كان غير معروف."
 			},
 			"tel": {
-				"name": "Telephone number",
-				"desc": "Facility telephone number. Leave this field blank if there is no telephone number. Enter \"99\" if it is unknown."
+				"name": "رقم هاتف",
+				"desc": "رقم هاتف المنشأة. اترك هذا الحقل فارغًا إذا لم يكن هناك رقم هاتف. أدخل \ "99 \" إذا كان غير معروف."
 			},
 			"lat": {
-				"name": "Latitude",
-				"desc": "Latitude of the center position. Enter a value in decimal notation (e.g., 35.6755310)."
+				"name": "خط العرض",
+				"desc": "خط عرض المركز. أدخل قيمة بالتدوين العشري (على سبيل المثال ، 35.6755310)."
 			},
 			"lon": {
-				"name": "Longitude",
-				"desc": "Longitude of the center position. Enter a value in decimal notation (e.g., 139.7512700)."
+				"name": "خط الطول",
+				"desc": "خط الطول لموقف المركز. أدخل قيمة بالتدوين العشري (على سبيل المثال ، 139.7512700)."
 			},
 			"move_floor": {
-				"name": "Moving between floors",
-				"desc": "1: none, 2: yes, 99: unknown"
+				"name": "التنقل بين الطوابق",
+				"desc": "1: لا ، 2: نعم ، 99: غير معروف"
 			},
 			"toilet": {
-				"name": "Toilets",
-				"desc": "1: none, 2: general toilets, 3: multi-functional toilets (without equipment for ostomates, nor diaper change bed), 4: multi-functional toilets (with equipment for ostomates), 5: multi-functional toilets (with diaper change bed), 6: multi-functional toilets (with equipment for ostomates, and diaper change bed), 99: unknown"
+				"name": "مراحيض",
+				"desc": "1: لا يوجد ، 2: مراحيض عامة ، 3: مراحيض متعددة الوظائف (بدون معدات للعظام ، ولا سرير لتغيير الحفاضات) ، 4: مراحيض متعددة الوظائف (مع معدات للعظام) ، 5: مراحيض متعددة الوظائف (مع تغيير الحفاضات) السرير) ، 6: مراحيض متعددة الوظائف (مع معدات للعظام ، وسرير لتغيير الحفاضات) ، 99: غير معروف"
 			},
 			"elevator": {
-				"name": "Elevators",
-				"desc": "1: without elevator, 2: with elevator (without barrier-free equipment), 3: with elevator (accessible to wheelchair users), 4: with elevator (accessible to visually impaired persons), 5: with elevator (accessible to both wheelchair users and visually impaired persons), 99: unknown"
+				"name": "مصاعد",
+				"desc": "1: بدون مصعد ، 2: بمصعد (بدون معدات خالية من العوائق) ، 3: بمصعد (يمكن الوصول إليه لمستخدمي الكراسي المتحركة) ، 4: بمصعد (يمكن الوصول إليه من قبل الأشخاص المعاقين بصريًا) ، 5: بمصعد (يمكن الوصول إليه من قبل مستخدمي الكراسي المتحركة) والمعاقين بصريا) ، 99: غير معروف"
 			},
 			"escalator": {
-				"name": "Escalators",
-				"desc": "1: none, 2: yes, 99: unknown"
+				"name": "سلالم متحركة",
+				"desc": "1: لا ، 2: نعم ، 99: غير معروف"
 			},
 			"parking": {
-				"name": "Accessible parking",
-				"desc": "1: none, 2: parking for general visitors, 3: wheelchair accessible parking, 4: both 2 and 3, 99: unknown"
+				"name": "موقف سيارات يسهل الوصول إليه",
+				"desc": "1: لا شيء ، 2: موقف للسيارات للزوار العامين ، 3: موقف سيارات صالح للكراسي المتحركة ، 4: كلاهما 2 و 3 ، 99: غير معروف"
 			},
 			"barrier": {
-				"name": "Wheelchair accessible entrance",
-				"desc": "1: none, 2: with wheelchair accessible entrance, 99: unknown (If the step at the entrance is approximately 2 cm or less or there is a slope or the entrance is judged to be accessible because there is an elevator for wheelchair users, etc., enter \"2: with wheelchair accessible entrance.\")"
+				"name": "مدخل صالح للكراسي المتحركة",
+				"desc": "1: لا شيء ، 2: مع مدخل يمكن الوصول إليه بواسطة الكراسي المتحركة ، 99: غير معروف (إذا كانت الدرجة عند المدخل حوالي 2 سم أو أقل أو كان هناك منحدر أو تم الحكم على المدخل بأنه يمكن الوصول إليه بسبب وجود مصعد لمستخدمي الكراسي المتحركة ، إلخ. . ، أدخل \ "2: بمدخل صالح للكراسي المتحركة. \")"
 			},
 			"nursing": {
-				"name": "Nursing rooms",
-				"desc": "1: none, 2: yes, 99: unknown"
+				"name": "غرف التمريض",
+				"desc": "1: لا ، 2: نعم ، 99: غير معروف"
 			},
 			"brail_tile": {
-				"name": "Tactile walking surface indicators",
-				"desc": "1: none, 2: yes, 99: unknown"
+				"name": "مؤشرات سطح المشي باللمس",
+				"desc": "1: لا ، 2: نعم ، 99: غير معروف"
 			},
 			"info": {
-				"name": "Information offices",
-				"desc": "1: none, 2: yes (not accessible to hearing-impaired persons), 3: yes (accessible to hearing-impaired persons), 99: unknown"
+				"name": "مكاتب المعلومات",
+				"desc": "1: لا ، 2: نعم (لا يمكن الوصول إليه من قبل الأشخاص ضعاف السمع) ، 3: نعم (متاح للأشخاص ضعاف السمع) ، 99: غير معروف"
 			},
 			"info_board": {
-				"name": "Information board",
-				"desc": "1: none, 2: yes (not accessible to visually impaired persons), 3: yes (accessible to visually impaired persons), 99: unknown"
+				"name": "لوحة المعلومات",
+				"desc": "1: لا ، 2: نعم (لا يمكن للأشخاص المعاقين بصريًا الوصول إليها) ، 3: نعم (متاح للأشخاص المعاقين بصريًا) ، 99: غير معروف"
 			},
 			"name_hira": {
-				"name": "Name (hiragana)",
-				"desc": "Enter a facility name in hiragana. Leave this field blank if there is no facility name. Enter \"99\" if it is unknown."
+				"name": "الاسم (هيراغانا)",
+				"desc": "أدخل اسم منشأة في هيراغانا. اترك هذا الحقل فارغًا إذا لم يكن هناك اسم منشأة. أدخل \ "99 \" إذا كان غير معروف."
 			},
 			"fax": {
-				"name": "Fax number",
-				"desc": "Facility fax number. Leave this field blank if there is no fax number. Enter \"99\" if it is unknown."
+				"name": "رقم الفاكس",
+				"desc": "رقم فاكس المنشأة. اترك هذا الحقل فارغًا إذا لم يكن هناك رقم فاكس. أدخل \ "99 \" إذا كان غير معروف."
 			},
 			"mail": {
-				"name": "E-Mail",
-				"desc": "Facility e-mail address. Leave this field blank if there is no e-mail address. Enter \"99\" if it is unknown."
+				"name": "بريد إلكتروني",
+				"desc": "عنوان البريد الإلكتروني للمنشأة. اترك هذا الحقل فارغًا إذا لم يكن هناك عنوان بريد إلكتروني. أدخل \ "99 \" إذا كان غير معروف."
 			},
 			"start_time": {
-				"name": "Service start time",
-				"desc": "Enter service start time if the service time is limited. Leave this field blank if the service time is not limited. Enter \"99\" if it is unknown. The format is \"HH-MM.\""
+				"name": "وقت بدء الخدمة",
+				"desc": "أدخل وقت بدء الخدمة إذا كان وقت الخدمة محدودًا. اترك هذا الحقل فارغًا إذا لم يكن وقت الخدمة محدودًا. أدخل \ "99 \" إذا كان غير معروف. التنسيق هو \ "HH-MM. \""
 			},
 			"end_time": {
-				"name": "Service end time",
-				"desc": "Enter service end time if the service time is limited. Leave this field blank if the service time is not limited. Enter \"99\" if it is unknown. The format is \"HH-MM.\""
+				"name": "وقت انتهاء الخدمة",
+				"desc": "أدخل وقت انتهاء الخدمة إذا كان وقت الخدمة محدودًا. اترك هذا الحقل فارغًا إذا لم يكن وقت الخدمة محدودًا. أدخل \ "99 \" إذا كان غير معروف. التنسيق هو \ "HH-MM. \""
 			},
 			"no_serv_d": {
 				"name": "Service closing days",
