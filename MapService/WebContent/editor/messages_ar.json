@@ -402,76 +402,76 @@
 				"desc": "أدخل وقت انتهاء الخدمة إذا كان وقت الخدمة محدودًا. اترك هذا الحقل فارغًا إذا لم يكن وقت الخدمة محدودًا. أدخل \ "99 \" إذا كان غير معروف. التنسيق هو \ "HH-MM. \""
 			},
 			"no_serv_d": {
-				"name": "Service closing days",
-				"desc": "Enter non-service days if the service days of the week are limited. Omitted if the service days of the week are not limited. Convert the days of the week into numbers (1: Monday to 7: Sunday) and enter numbers consecutively in an ascending order if there are more than one. Leave this field blank if there is no service closing day. Enter \"99\" if it is unknown."
+				"name": "أيام إغلاق الخدمة",
+				"desc": "أدخل أيام غير الخدمة إذا كانت أيام الخدمة محدودة. محذوف إذا كانت أيام الخدمة في الأسبوع غير محدودة. قم بتحويل أيام الأسبوع إلى أرقام (1: من الاثنين إلى 7: الأحد) وأدخل الأرقام على التوالي بترتيب تصاعدي إذا كان هناك أكثر من واحد. اترك هذا الحقل فارغًا إذا لم يكن هناك يوم إغلاق للخدمة. أدخل \ "99 \" إذا كان غير معروف."
 			},
 			"sex": {
-				"name": "Sex",
-				"desc": "1: male, 2: female, 3: shared, 99: unknown"
+				"name": "الجنس",
+				"desc": "1: ذكر ، 2: أنثى ، 3: مشترك ، 99: غير معروف"
 			},
 			"fee": {
-				"name": "Fee",
-				"desc": "1: free, 2: charged, 99: unknown"
+				"name": "الرسوم",
+				"desc": "1: مجاني ، 2: برسوم ، 99: غير معروف"
 			},
 			"subject": {
-				"name": "Subject of medical treatment",
-				"desc": "1: internal medicine, 2: pediatrics, 3: surgery, 4: obstetrics and gynecology, 5: other, 99: unknown Enter numbers consecutively in an ascending order if there is more than one department."
+				"name": "خاضع للعلاج الطبي",
+				"desc": "1: الطب الباطني ، 2: الأطفال ، 3: الجراحة ، 4: أمراض النساء والتوليد ، 5: أخرى ، 99: غير معروف أدخل الأرقام على التوالي بترتيب تصاعدي إذا كان هناك أكثر من قسم."
 			},
 			"close_day": {
-				"name": "Closing days",
-				"desc": "If there are closing days, convert the closing days of the week into numbers (1: Monday to 7: Sunday) and enter numbers consecutively in an ascending order if there are more than one. (If closing days differ between hospital departments, handle them as different facilities.) Leave this field blank if there is no closing day. Enter \"99\" if it is unknown."
+				"name": "أيام الإغلاق",
+				"desc": "إذا كانت هناك أيام إغلاق ، فقم بتحويل أيام إغلاق الأسبوع إلى أرقام (1: من الاثنين إلى 7: الأحد) وأدخل الأرقام على التوالي بترتيب تصاعدي إذا كان هناك أكثر من واحد. (إذا اختلفت أيام الإغلاق بين أقسام المستشفى ، تعامل معها كمرافق مختلفة.) اترك هذا الحقل فارغًا إذا لم يكن هناك يوم إغلاق. أدخل \ "99 \" إذا كان غير معروف."
 			},
 			"med_dept": {
-				"name": "District name",
-				"desc": "Facility district name, 99: unknown"
+				"name": "اسم الحي",
+				"desc": "اسم منطقة المنشأة ، 99: غير معروف"
 			},
 			"flood": {
-				"name": "Designated for storm and flood damage",
-				"desc": "1: not possible, 2: possible, 99: unknown"
+				"name": "مخصص لأضرار العواصف والفيضانات",
+				"desc": "1: غير ممكن ، 2: ممكن ، 99: غير معروف"
 			},
 			"ent#_lat": {
-				"name": "Latitude of entrance #",
-				"desc": "Latitude of the center position. Enter a value in decimal notation (e.g., 35.6755310)."
+				"name": "خط عرض المدخل #",
+				"desc": "خط عرض المركز. أدخل قيمة بالتدوين العشري (على سبيل المثال ، 35.6755310)."
 			},
 			"ent#_lon": {
-				"name": "Longitude of entrance #",
-				"desc": "Longitude of the center position. Enter a value in decimal notation (e.g., 139.7512700)."
+				"name": "خط طول المدخل #",
+				"desc": "خط الطول لموقف المركز. أدخل قيمة بالتدوين العشري (على سبيل المثال ، 139.7512700)."
 			},
 			"ent#_n": {
-				"name": "Name of entrance #",
+				"name": "اسم المدخل #",
 				"desc": "Enter an entrance name (Leave this field blank if there is no entrance name. Enter \"99\" if it is unknown.)"
 			},
 			"ent#_w": {
-				"name": "Width of entrance #",
-				"desc": "1: less than 1.0 m, 2: 1.0 m to less than 2.0 m, 3: 2.0 m to less than 3.0 m, 4: 3.0 m or more, 99: unknown (Evaluate the minimum width in a relevant link.)"
+				"name": "عرض المدخل #",
+				"desc": "1: أقل من 1.0 م ، 2: 1.0 م إلى أقل من 2.0 م ، 3: 2.0 م إلى أقل من 3.0 م ، 4: 3.0 م أو أكثر ، 99: غير معروف (قم بتقييم الحد الأدنى للعرض في ارتباط ذي صلة.)"
 			},
 			"ent#_d": {
-				"name": "Door type of entrance #",
-				"desc": "1: none, 2: automatic door, 3: press-button automatic door, 4: manual sliding door, 5: manual door, 6: revolving door, 7: other door, 99: unknown"
+				"name": "نوع باب المدخل #",
+				"desc": "1: لا ، 2: باب أوتوماتيكي ، 3: باب أوتوماتيكي بضغطة زر ، 4: باب منزلق يدويًا ، 5: باب يدوي ، 6: باب دوار ، 7: باب آخر ، 99: غير معروف"
 			},
 			"ent#_brr": {
-				"name": "Wheelchair accessible entrance #",
-				"desc": "1: none, 2: with wheelchair accessible entrance, 99: unknown (If the step at the entrance is approximately 2 cm or less or there is a slope or the entrance is judged to be accessible because there is an elevator for wheelchair users, etc., enter \"2: with wheelchair accessible entrance.\")"
+				"name": "مدخل صالح للكراسي المتحركة #",
+				"desc": "1: لا شيء ، 2: مع مدخل يمكن الوصول إليه بواسطة الكراسي المتحركة ، 99: غير معروف (إذا كانت الدرجة عند المدخل حوالي 2 سم أو أقل أو كان هناك منحدر أو تم الحكم على المدخل بأنه يمكن الوصول إليه بسبب وجود مصعد لمستخدمي الكراسي المتحركة ، إلخ. . ، أدخل \ "2: بمدخل صالح للكراسي المتحركة. \")"
 			},
 			"ent#_fl": {
-				"name": "Floor number of entrance #",
-				"desc": "Enter the floor number of a node near the entrance."
+				"name": "رقم الطابق للمدخل #",
+				"desc": "أدخل رقم الطابق للنقطة بالقرب من المدخل."
 			},
 			"ent#_node": {
-				"name": "Node ID of entrance #",
-				"desc": "Node ID of entrance"
+				"name": "معرف نقطة المدخل #",
+				"desc": "معرف نقطة المدخل "
 			}
 		},
 		"area":
 		{
 			"hulop_area_name": {
-				"desc": "specify area name (building name, area name, etc.)"
+				"desc": "حدد اسم المنطقة (اسم المبنى ، واسم المنطقة ، وما إلى ذلك)"
 			},
 			"hulop_area_localization": {
-				"desc": "1: not supported, 2: supported"
+				"desc": "1: غير مدعوم ، 2: مدعوم"
 			},
 			"hulop_area_navigation": {
-				"desc": "1: not supported, 2: supported"
+				"desc": "1: غير مدعوم ، 2: مدعوم"
 			}
 		}
 	}
